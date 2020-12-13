@@ -6,3 +6,5 @@ Pdfmergeme - Save the file within its own folder and add any PDF files you would
 pdftotextarray - Convert PDF files to strings and store within a dictionary for use within NLP (spacy, NLTK)
 
 CMSautomation- showing the capabilities of using pyautogui to interact with CMS systems when the sql database is not accessible.
+
+EmailAdder - Simple tool to save emails into the CMS
