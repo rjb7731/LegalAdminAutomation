@@ -13,4 +13,4 @@ EmailAdder - Simple tool to save emails into the CMS.
 
 PrintAll - Send all Pdf's to the printer within a specific file.
 
-Xeroxscanfind - Find all scaned images sent from a Xerox Printer within outlook 
+Xeroxscanfind - Find all scanned images sent from a Xerox Printer within outlook 
