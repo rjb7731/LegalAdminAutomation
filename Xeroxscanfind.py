@@ -12,10 +12,6 @@ body_content = message.body
 subj_line = message.subject
 sender = message.Sender #does not read meeting invites - use messagesender()
 
-##while message:
-##	print(message.subject)
-##	message=messages.GetPrevious()
-
 
 def messagesender():
     mes1 = message.subject
@@ -32,6 +28,7 @@ def scannedimages():
 for x in range(len(messages)):
     messagesender()
     #print(f"SENDER: {messagesender()}, SUBJECT: {message.subject}")
+    scannedimages()
     if "692" in message.body:
         print(f"FOUND {message.body}")
     message = messages.GetPrevious()
