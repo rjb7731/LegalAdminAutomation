@@ -6,13 +6,13 @@ _______________________________________________________
 **PDF Tools**
 _____________
 
+**PDFChecker** - Reads a folder of pdf's and return's the entity names involved and also the document type (e.g. Joe Bloggs Limited & Lease)
+
 **Pdfmergeme** - Save the file within its own folder and add any PDF files you would like to merge, they will join in the order you label them (1.pdf, 2.pdf etc)
 
 **pdftotextarray** - Convert PDF files to text strings and store within a dictionary for use within NLP (spacy, NLTK)
 
 **PrintAll** - Send all Pdf's to the printer within a specific file - saves having to go through and click each document. 
-
-**PDFChecker** - Reads a folder of pdf's and return's the entity names involved and also the document type (e.g. Joe Bloggs Limited & Lease)
 _____________
 
 **Case Management System Automation**
