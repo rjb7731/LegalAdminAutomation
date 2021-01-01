@@ -11,6 +11,8 @@ _____________
 **pdftotextarray** - Convert PDF files to text strings and store within a dictionary for use within NLP (spacy, NLTK)
 
 **PrintAll** - Send all Pdf's to the printer within a specific file - saves having to go through and click each document. 
+
+**PDFChecker** - Reads a folder of pdf's and return's the entity names involved and also the document type (e.g. Joe Bloggs Limited & Lease)
 _____________
 
 **Case Management System Automation**
