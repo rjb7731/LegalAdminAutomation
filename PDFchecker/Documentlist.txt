@@ -1,0 +1,6 @@
+##Document type goes here, example:##
+
+Lease
+Licence to Alter
+Agreement for Lease
+
