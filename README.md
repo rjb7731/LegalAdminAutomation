@@ -20,7 +20,7 @@ _____________
 
 **CMSautomation & CMSautoV2**- showing the capabilities of using pyautogui to interact with CMS systems when the sql database is not accessible. - Saves considerable amount of time and removes human error with data entry, reads directly from an excel spreadsheet. 
 
-**EmailAdder** - Simple tool to save emails into the CMS - free's up time to do other things and helps meets GDPR and data cleansing requirements. 
+**EmailAdder** - Simple tool to save emails into the CMS - free's up time to do other things and helps meet GDPR and data cleansing requirements. 
 _____________
 
 **Outlook Automation**
