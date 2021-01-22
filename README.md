@@ -28,4 +28,11 @@ _____________
 
 **Xeroxscanfind** - Find all scanned images sent from a Xerox Printer within outlook - can be used to save any attachments and or merge, autoforward on to individuals.
 
-**Amendmentstracker** - Scans an outlook sent folder for document amend requests and keeps track of how many requests have been sent to the person and outputs the info into a spreadsheet. 
+**Amendmentstracker** - Scans an outlook sent folder for document amend requests and keeps track of how many requests have been sent to the person and outputs the info into a spreadsheet.
+
+_____________
+
+**General Automation**
+_____________
+
+Mousetracker - keeps a record of when and where the mouse has been clicked (Left or Right - x, y coordinates).
