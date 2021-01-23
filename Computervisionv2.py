@@ -20,7 +20,7 @@ filename = "Recording.avi"
 
 # Specify frames rate. We can choose any 
 # value and experiment with it 
-fps = 120.0
+fps = 15
 
 
 # Creating a VideoWriter object 
@@ -35,6 +35,11 @@ cv2.resizeWindow("Live", 480, 270)
 #added in
 pos = (911, 1045)
 color = (0, 0, 255)
+
+def getmouseposition():
+    mousepos = pa.position()
+    return mousepos[0],mousepos[1]
+
 
 
 while True:
@@ -53,8 +58,11 @@ while True:
         if a != state_left:
             state_left = a
             if a < 0:
+                mouse_coordinates = getmouseposition()
+                cv2.circle(frame, mouse_coordinates, 10, color, -1)
                 cv2.putText(frame, f'Left Button- {pa.position()}', pos, cv2.FONT_HERSHEY_SIMPLEX,  
                    1, color, 2, cv2.LINE_AA)
+                time.sleep(0.1)
             else:
                 pass
         if b != state_right:
@@ -62,6 +70,7 @@ while True:
             if a < 0:
                 cv2.putText(frame, f'Right Button- {pa.position()}', pos, cv2.FONT_HERSHEY_SIMPLEX,  
                    1, color, 2, cv2.LINE_AA)
+                time.sleep(1)
             else:
                 pass
                 
