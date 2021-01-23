@@ -35,4 +35,6 @@ _____________
 **General Automation**
 _____________
 
-Mousetracker - keeps a record of when and where the mouse has been clicked (Left or Right - x, y coordinates).
+**Mousetracker** - keeps a record of when and where the mouse has been clicked (Left or Right - x, y coordinates).
+
+**Computervisionv2** - Records the screen and outputs a video which tracks the mouse position and clicks. Co-ordinates appear bottom right of the video and the mouse tracker goes green when the user clicks on something. 
