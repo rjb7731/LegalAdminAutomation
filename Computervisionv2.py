@@ -11,8 +11,6 @@ state_right = win32api.GetKeyState(0x02) # right button off=0 on =1
 
 # Specify resolution 
 resolution = (1920, 1080) 
-
-# Specify video codec 
 codec = cv2.VideoWriter_fourcc(*"XVID") 
 
 # Specify name of Output file 
@@ -33,7 +31,7 @@ cv2.namedWindow("Live", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Live", 480, 270)
 
 #added in
-pos = (911, 1045)
+pos = (1417, 995)
 color = (0, 0, 255)
 
 def getmouseposition():
@@ -50,6 +48,9 @@ while True:
     # Convert the screenshot to a numpy array 
         frame = np.array(img)
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        cv2.circle(frame, getmouseposition(), 10, color, -1)
+        cv2.putText(frame, f'{pa.position()}', pos, cv2.FONT_HERSHEY_SIMPLEX,  
+                   1, color, 2, cv2.LINE_AA)
 
     # Write it to the output file
         
@@ -59,8 +60,8 @@ while True:
             state_left = a
             if a < 0:
                 mouse_coordinates = getmouseposition()
-                cv2.circle(frame, mouse_coordinates, 10, color, -1)
-                cv2.putText(frame, f'Left Button- {pa.position()}', pos, cv2.FONT_HERSHEY_SIMPLEX,  
+                cv2.circle(frame, mouse_coordinates, 20, (0,255,0), -1)
+                cv2.putText(frame, f'CLICKED', pos, cv2.FONT_HERSHEY_SIMPLEX,  
                    1, color, 2, cv2.LINE_AA)
                 time.sleep(0.1)
             else:
