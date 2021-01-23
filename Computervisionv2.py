@@ -38,8 +38,6 @@ def getmouseposition():
     mousepos = pa.position()
     return mousepos[0],mousepos[1]
 
-
-
 while True:
         a = win32api.GetKeyState(0x01)
         b = win32api.GetKeyState(0x02)
@@ -51,10 +49,6 @@ while True:
         cv2.circle(frame, getmouseposition(), 10, color, -1)
         cv2.putText(frame, f'{pa.position()}', pos, cv2.FONT_HERSHEY_SIMPLEX,  
                    1, color, 2, cv2.LINE_AA)
-
-    # Write it to the output file
-        
-    # Optional: Display the recording screen
 
         if a != state_left:
             state_left = a
