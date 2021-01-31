@@ -37,4 +37,6 @@ _____________
 
 **Mousetracker** - keeps a record of when and where the mouse has been clicked (Left or Right - x, y coordinates).
 
-**Computervisionv2** - Records the screen and outputs a video which tracks the mouse position and clicks. Co-ordinates appear bottom right of the video and the mouse tracker goes green when the user clicks on something. 
+**Computervisionv2** - Records the screen and outputs a video which tracks the mouse position and clicks. Co-ordinates appear bottom right of the video and the mouse tracker goes green when the user clicks on something.
+
+**ComputerVisionOCR** - My attempt at implementing real time OCR on documents by using a webcam/external camera to 'scan' the documents from live footage. 
