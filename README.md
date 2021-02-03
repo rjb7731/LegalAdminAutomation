@@ -30,6 +30,8 @@ _____________
 
 **Amendmentstracker** - Scans an outlook sent folder for document amend requests and keeps track of how many requests have been sent to the person and outputs the info into a spreadsheet.
 
+**EmailtoFolder** - Save all emails within outlook folders locally to your machine.
+
 _____________
 
 **General Automation**
