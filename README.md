@@ -6,6 +6,8 @@ _______________________________________________________
 **PDF Tools**
 _____________
 
+**Emailtomergedpdf** - Scans outlook emails for PDf attachements sent from a Xerox machine and merges to a single file.
+
 **PDFChecker** - Reads a folder of pdf's and return's the entity names involved and also the document type (e.g. Joe Bloggs Limited & Lease)
 
 **Pdfmergeme** - Save the file within its own folder and add any PDF files you would like to merge, they will join in the order you label them (1.pdf, 2.pdf etc)
